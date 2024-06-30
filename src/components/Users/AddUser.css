@@ -1,0 +1,15 @@
+.userform {
+  background-color: #b8bebe;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 15px;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+.userInput {
+  margin: 5px;
+}
