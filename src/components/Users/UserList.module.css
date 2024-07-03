@@ -1,0 +1,32 @@
+/* UserList.module.css */
+.ul {
+  padding: 20px;
+  margin: 15px;
+  border-radius: 15px;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+  list-style: none;
+  background-color: #f0f0f0;
+}
+
+.li {
+  margin: 10px;
+  background-color: #b8bebe;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: max-content;
+}
+
+.secondary {
+  display: inline;
+}
+
+.card {
+  padding: 30px;
+}

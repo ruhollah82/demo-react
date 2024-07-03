@@ -1,15 +1,17 @@
 .userform {
-  background-color: #b8bebe;
   padding: 20px;
   margin: 15px;
+  gap: 10px;
   border-radius: 15px;
   width: 500px;
   height: fit-content;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  justify-content: center;
   font-weight: bold;
 }
-.userInput {
-  margin: 5px;
-}
+/* .card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+} */

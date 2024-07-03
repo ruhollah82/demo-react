@@ -1,17 +1,26 @@
 import React from "react";
 
-import Card from "../UI/Card";
+import classes from "./UserList.module.css";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
+import { Card, Divider } from "@mui/material";
 
 const UserList = (props) => {
   return (
-    <Card>
-      <ul>
+    <Card className={classes.card}>
+      <List className={classes.ul}>
         {props.users.map((user) => (
-          <li>
-            {user.name} ({user.age} years old)
-          </li>
+          <ListItem key={user.id}>
+            <ListItemText
+              primary={user.name}
+              secondary={
+                <div className={classes.secondary}>{user.age} years old </div>
+              }
+            ></ListItemText>
+          </ListItem>
         ))}
-      </ul>
+      </List>
     </Card>
   );
 };
